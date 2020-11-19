@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="User can log in account" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-19T17:17:42" hostname="DESKTOP-7658FGJ" time="5.989">
+  <properties/>
+  <testcase name="User can log in account" classname="User can log in account" time="5.989"/>
+  <system-out><![CDATA[Feature: User can log in account
+
+  @login
+  Scenario: User can log in account         ?[90m# src/test/resources/features/login.feature:4?[0m
+12:17:42.662 [Test worker] INFO  - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+User can log in account(user-can-log-in-account;user-can-log-in-account)
+-------------------------------------------------------------------
+12:17:43.254 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginStepDefinitions.the_User_is_on_page_WMU - !#title
+12:17:43.257 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginStepDefinitions.the_User_is_on_page_WMU - {0} opens the #targetPageName
+12:17:43.786 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+12:17:43.786 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized;--test-ty..., goog:chromeOptions: {args: [--start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors..., --incognito, --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --disable-infobars, --disable-gpu, --disable-web-security, --allow-running-insecure-co...], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: }
+12:17:47.936 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Opening darkroom
+12:17:47.938 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line starting up
+12:17:48.321 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Dmeza\Desktop\Base_Project\target\site\serenity\625c143ac2d3d64b8d057950ff01d2cb3fbe50d1a53b0004f330e99b06a983d8.png
+12:17:48.321 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-1824189342278294594
+12:17:48.322 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\Dmeza\Desktop\Base_Project\target\site\serenity\625c143ac2d3d64b8d057950ff01d2cb3fbe50d1a53b0004f330e99b06a983d8.png
+12:17:48.324 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} opens the #targetPageName
+12:17:48.334 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: !#title
+    ?[32mGiven ?[0m?[32mthe ?[0m?[32m?[1mUser?[0m?[32m is on page WMU?[0m           ?[90m# LoginStepDefinitions.the_User_is_on_page_WMU(String)?[0m
+    ?[32mWhen ?[0m?[32menters the credentials?[0m             ?[90m# LoginStepDefinitions.enters_the_credentials(String>)?[0m
+12:17:48.610 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Dmeza\Desktop\Base_Project\target\site\serenity\ce50dd76420e91273aca6e598cd02bb07a0356a81541dac9d5083dd8ddb7074a.png
+12:17:48.610 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-8642715781321257511
+12:17:48.611 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\Dmeza\Desktop\Base_Project\target\site\serenity\ce50dd76420e91273aca6e598cd02bb07a0356a81541dac9d5083dd8ddb7074a.png
+    ?[32mThen ?[0m?[32mthe user is successfully logged in?[0m ?[90m# LoginStepDefinitions.the_user_is_successfully_logged_in()?[0m
+]]></system-out>
+  <system-err><![CDATA[Nov 19, 2020 12:17:43 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 44011
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 19, 2020 12:17:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

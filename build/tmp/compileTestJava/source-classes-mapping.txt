@@ -1,0 +1,8 @@
+starter/CucumberTestSuite.java
+ starter.CucumberTestSuite
+starter/navigation/WmuPage.java
+ starter.navigation.WmuPage
+starter/stepdefinitions/LoginStepDefinitions.java
+ starter.stepdefinitions.LoginStepDefinitions
+starter/navigation/NavigateTo.java
+ starter.navigation.NavigateTo
